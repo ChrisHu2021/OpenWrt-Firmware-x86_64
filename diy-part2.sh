@@ -14,4 +14,4 @@
 sed -i 's/192.168.1.1/192.168.50.251/g' package/base-files/files/bin/config_generate
 
 # Modify kernel version
-# sed -i 's/PATCHVER:=5.10/PATCHVER:=5.4/g' target/linux/x86/Makefile
+# sed -i 's/PATCHVER:=5.15/PATCHVER:=5.10/g' target/linux/x86/Makefile
